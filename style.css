@@ -374,3 +374,96 @@ header{
     box-shadow:0 20px 40px rgba(0,0,0,.15);
 
 }
+/* ===========================
+   SERVICES SECTION
+=========================== */
+
+.services{
+
+    background:#f9f9f9;
+
+}
+
+.services h2{
+
+    text-align:center;
+
+    font-size:42px;
+
+    margin:15px 0;
+
+}
+
+.services .section-tag{
+
+    display:block;
+
+    text-align:center;
+
+}
+
+.services .section-description{
+
+    text-align:center;
+
+    max-width:700px;
+
+    margin:20px auto 60px;
+
+}
+
+.services-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:30px;
+
+}
+
+.service-card{
+
+    background:#ffffff;
+
+    padding:40px 30px;
+
+    border-radius:20px;
+
+    text-align:center;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+    transition:.35s;
+
+    border-bottom:5px solid transparent;
+
+}
+
+.service-card:hover{
+
+    transform:translateY(-10px);
+
+    border-color:#c8a043;
+
+    box-shadow:0 20px 40px rgba(0,0,0,.15);
+
+}
+
+.service-card h3{
+
+    font-size:24px;
+
+    margin-bottom:18px;
+
+    color:#111;
+
+}
+
+.service-card p{
+
+    font-size:16px;
+
+    color:#666;
+
+}
