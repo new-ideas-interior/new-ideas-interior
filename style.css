@@ -1,1 +1,117 @@
+/* ===========================
+   GOOGLE FONT
+=========================== */
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+/* ===========================
+   RESET
+=========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* ===========================
+   BODY
+=========================== */
+
+body{
+
+    font-family:'Poppins',sans-serif;
+
+    background:#ffffff;
+
+    color:#222;
+
+    line-height:1.6;
+
+    overflow-x:hidden;
+
+}
+
+/* ===========================
+   CONTAINER
+=========================== */
+
+.container{
+
+    width:90%;
+
+    max-width:1200px;
+
+    margin:auto;
+
+}
+
+/* ===========================
+   LINKS
+=========================== */
+
+a{
+
+    text-decoration:none;
+
+    color:inherit;
+
+}
+
+/* ===========================
+   IMAGES
+=========================== */
+
+img{
+
+    width:100%;
+
+    display:block;
+
+}
+
+/* ===========================
+   SECTION
+=========================== */
+
+section{
+
+    padding:90px 0;
+
+}
+
+/* ===========================
+   HEADING
+=========================== */
+
+h1,h2,h3,h4{
+
+    font-weight:700;
+
+}
+
+p{
+
+    color:#666;
+
+}
+
+.section-tag{
+
+    color:#c9a227;
+
+    font-weight:600;
+
+    letter-spacing:2px;
+
+    text-transform:uppercase;
+
+}
+
+.section-description{
+
+    margin-top:15px;
+
+    margin-bottom:50px;
+
+}
