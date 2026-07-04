@@ -776,3 +776,212 @@ margin-bottom:60px;
     color:#ddd;
 
 }
+/* =====================================
+   TESTIMONIALS
+===================================== */
+
+.testimonials{
+    background:#ffffff;
+}
+
+.testimonial-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:35px;
+    margin-top:60px;
+}
+
+.testimonial-card{
+    background:#fff;
+    padding:40px 30px;
+    border-radius:20px;
+    box-shadow:0 12px 35px rgba(0,0,0,.08);
+    transition:.35s;
+}
+
+.testimonial-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 20px 45px rgba(0,0,0,.15);
+}
+
+.stars{
+    color:#c8a043;
+    font-size:24px;
+    margin-bottom:20px;
+}
+
+.testimonial-card p{
+    color:#666;
+    line-height:1.8;
+    margin-bottom:20px;
+}
+
+.testimonial-card h4{
+    color:#111;
+    font-size:18px;
+}
+
+/* =====================================
+   CONTACT
+===================================== */
+
+.contact{
+    background:#f8f8f8;
+}
+
+.contact-container{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:60px;
+    align-items:start;
+}
+
+.contact-info h2{
+    text-align:left;
+}
+
+.contact-info .section-subtitle{
+    text-align:left;
+}
+
+.contact-box{
+    margin-top:25px;
+}
+
+.contact-box h3{
+    color:#111;
+    margin-bottom:8px;
+}
+
+.contact-box p{
+    color:#666;
+    line-height:1.8;
+}
+
+.contact-form{
+    background:#fff;
+    padding:40px;
+    border-radius:20px;
+    box-shadow:0 12px 35px rgba(0,0,0,.08);
+}
+
+.contact-form input,
+.contact-form textarea{
+    width:100%;
+    padding:16px;
+    margin-bottom:20px;
+    border:1px solid #ddd;
+    border-radius:10px;
+    font-family:Poppins,sans-serif;
+    font-size:16px;
+}
+
+.contact-form textarea{
+    resize:vertical;
+}
+
+.contact-form button{
+    width:100%;
+    padding:16px;
+    background:#c8a043;
+    color:#fff;
+    border:none;
+    border-radius:50px;
+    font-size:17px;
+    font-weight:600;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.contact-form button:hover{
+    background:#111;
+}
+
+/* =====================================
+   MAP
+===================================== */
+
+.map iframe{
+    width:100%;
+    height:450px;
+    border:0;
+}
+
+/* =====================================
+   CTA
+===================================== */
+
+.cta{
+    background:#111;
+    color:#fff;
+    text-align:center;
+}
+
+.cta h2{
+    color:#fff;
+}
+
+.cta p{
+    color:#ddd;
+    max-width:700px;
+    margin:20px auto 40px;
+}
+
+.cta-buttons{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+/* =====================================
+   FOOTER
+===================================== */
+
+.footer{
+    background:#0d0d0d;
+    color:#ccc;
+    padding:80px 0 30px;
+}
+
+.footer-container{
+    display:grid;
+    grid-template-columns:2fr 1fr 1fr 1.5fr;
+    gap:40px;
+}
+
+.footer-logo{
+    width:160px;
+    margin-bottom:20px;
+}
+
+.footer h3{
+    color:#fff;
+    margin-bottom:20px;
+}
+
+.footer ul li{
+    margin-bottom:12px;
+}
+
+.footer ul li a{
+    color:#ccc;
+    transition:.3s;
+}
+
+.footer ul li a:hover{
+    color:#c8a043;
+}
+
+.footer-contact p,
+.footer-about p{
+    line-height:1.9;
+}
+
+.copyright{
+    border-top:1px solid rgba(255,255,255,.08);
+    margin-top:50px;
+    padding-top:25px;
+    text-align:center;
+    color:#999;
+}
