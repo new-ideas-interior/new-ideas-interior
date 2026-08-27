@@ -779,3 +779,170 @@ section {
     }
 
 }
+/* =========================================================
+   PAGE 2 — PROJECTS & SERVICES
+========================================================= */
+
+
+/* ---------------------------------------------------------
+   PAGE HERO
+--------------------------------------------------------- */
+
+.page-hero {
+    min-height: 560px;
+    padding: 180px 0 100px;
+    background:
+        linear-gradient(
+            rgba(0, 0, 0, 0.72),
+            rgba(0, 0, 0, 0.72)
+        ),
+        url("images/hero/projects-hero.jpg") center/cover no-repeat;
+
+    color: var(--white);
+
+    display: flex;
+    align-items: center;
+}
+
+.page-hero-content {
+    max-width: 850px;
+}
+
+.page-hero-content h1 {
+    font-family: "Playfair Display", serif;
+    font-size: clamp(48px, 7vw, 76px);
+    line-height: 1.05;
+    font-weight: 600;
+    margin-bottom: 22px;
+}
+
+.page-hero-content > p:last-child {
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 18px;
+}
+
+
+/* ---------------------------------------------------------
+   PAGE SERVICES
+--------------------------------------------------------- */
+
+.page-services {
+    background: var(--white);
+}
+
+
+/* ---------------------------------------------------------
+   PROJECT COUNT
+--------------------------------------------------------- */
+
+.project-count {
+    margin-top: 55px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 18px;
+
+    padding: 35px;
+
+    background: var(--dark);
+    color: var(--white);
+
+    text-align: center;
+}
+
+.project-count strong {
+    font-family: "Playfair Display", serif;
+    font-size: 52px;
+    color: var(--gold);
+    line-height: 1;
+}
+
+.project-count span {
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+
+/* ---------------------------------------------------------
+   PROJECT CTA
+--------------------------------------------------------- */
+
+.project-cta {
+    background: var(--dark);
+    color: var(--white);
+    text-align: center;
+}
+
+.cta-content {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.cta-content h2 {
+    font-family: "Playfair Display", serif;
+    font-size: clamp(38px, 5vw, 58px);
+    line-height: 1.15;
+    margin-bottom: 20px;
+}
+
+.cta-content > p:not(.section-label) {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 17px;
+    margin-bottom: 32px;
+}
+
+
+/* ---------------------------------------------------------
+   PAGE 2 HEADER
+--------------------------------------------------------- */
+
+.project-page-header {
+    background: var(--dark);
+    position: relative;
+}
+
+
+/* ---------------------------------------------------------
+   PAGE 2 RESPONSIVE
+--------------------------------------------------------- */
+
+@media (max-width: 1000px) {
+
+    .page-hero {
+        min-height: 500px;
+    }
+
+}
+
+
+@media (max-width: 650px) {
+
+    .page-hero {
+        min-height: 480px;
+        padding: 150px 0 80px;
+    }
+
+    .page-hero-content h1 {
+        font-size: 45px;
+    }
+
+    .page-hero-content > p:last-child {
+        font-size: 16px;
+    }
+
+    .project-count {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .project-count strong {
+        font-size: 45px;
+    }
+
+    .cta-content h2 {
+        font-size: 40px;
+    }
+
+}
